@@ -16,5 +16,5 @@
 </ul>
 <p>{{$var}}</p>
 <p>{!!$var!!}</p>
-
+версия лары - {{App::VERSION()}}
 @endsection
