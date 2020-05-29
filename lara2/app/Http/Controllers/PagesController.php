@@ -16,4 +16,12 @@ class PagesController extends Controller
         $var = '<script>alert("!!!");</script>';
         return view('welcome')->withTasks($tasks)->withVar($var);
     }
+    public function contact()
+    {
+        return view('contact');
+    }
+    public function about()
+    {
+        return view('about');
+    }
 }
