@@ -36,6 +36,20 @@ Route::get('/about', 'PagesController@about');
 
 
 
+
+// Route::get('/projects', 'ProjectsController@index');
+
+// Route::post('/projects', 'ProjectsController@store');
+
+// Route::get('/projects/create', 'ProjectsController@create');
+//PUT
+//PATCH projects/id
+//DELETE projects/id
+//Route::patch('/projects/{pro}', 'ProjectsController@update');
+
+Route::resource('/projects','ProjectsController');
+
+
 // Route::get('/contact', function () {
 //     return view('contact');
 // });
