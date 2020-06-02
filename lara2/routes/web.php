@@ -47,6 +47,8 @@ Route::get('/about', 'PagesController@about');
 //DELETE projects/id
 //Route::patch('/projects/{pro}', 'ProjectsController@update');
 
+//ресурсный подразумевает все методы и пут и патч и дел
+//ресурсный контроллер соотв подразумевает медоты стор дестрой и тд
 Route::resource('/projects','ProjectsController');
 
 
